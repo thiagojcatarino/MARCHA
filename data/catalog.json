@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "catalog": "MARCHA",
+  "items": [
+    {
+      "id": "mlpd-2019",
+      "type": "research_edition",
+      "title": "Marcha Lenta para Pés Desbravadores",
+      "year": 2019,
+      "status": "Acervo em organização",
+      "summary": "Primeiro período registrado no percurso da pesquisa. A descrição e os materiais serão vinculados após revisão do acervo.",
+      "relations": ["mlpd-2022", "mlpd-2026"]
+    },
+    {
+      "id": "mlpd-2022",
+      "type": "research_edition",
+      "title": "Marcha Lenta para Pés Desbravadores",
+      "year": 2022,
+      "status": "Acervo em organização",
+      "summary": "Segundo período registrado no percurso da pesquisa. A descrição e os materiais serão vinculados após revisão do acervo.",
+      "relations": ["mlpd-2019", "mlpd-2026"]
+    },
+    {
+      "id": "mlpd-2026",
+      "type": "research_edition",
+      "title": "Marcha Lenta para Pés Desbravadores",
+      "year": 2026,
+      "status": "Em curso",
+      "summary": "Etapa atual do percurso de pesquisa.",
+      "relations": ["mlpd-2019", "mlpd-2022"]
+    }
+  ]
+}
