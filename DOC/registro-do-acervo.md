@@ -34,10 +34,10 @@ O registro documenta itens e suas relações sem pressupor que o original esteja
 | Conteúdo visual / descrição | Pendente |
 | Duração | Pendente |
 | Link ou localização do arquivo | Pendente |
-| Estado editorial | Rascunho (registro inicial; revisão pendente) |
-| Estado de publicação | Pendente; não há publicação indicada |
+| Estado editorial | Publicado na primeira versão do site |
+| Estado de publicação | Publicado em 2026-10-07: https://thiagojcatarino.github.io/MARCHA/ |
 | Versão de exposição | `assets/videos/IMG_2321-exposicao.m4v` (derivado 720p, 57749739 bytes) |
-| Destino da versão de exposição | GitHub Pages, planejado; publicação ainda pendente |
+| Destino da versão de exposição | GitHub Pages: https://thiagojcatarino.github.io/MARCHA/assets/videos/IMG_2321-exposicao.m4v |
 | Nota técnica | O original excede 100 MiB e precisa de Git LFS para armazenamento versionado. GitHub Pages não suporta Git LFS. Para exposição estática, foi gerado um derivado de 57749739 bytes (aprox. 55,1 MiB), que pode ser versionado diretamente; o original não será incluído no deploy. |
 
-O tamanho em MiB usa a conversão binária (1 MiB = 1.048.576 bytes). Nenhuma informação sobre autoria, gravação, direitos, duração, conteúdo visual ou endereço foi fornecida.
+O tamanho em MiB usa a conversão binária (1 MiB = 1.048.576 bytes). Autoria, data de gravação, direitos, duração e descrição do conteúdo visual continuam pendentes.
