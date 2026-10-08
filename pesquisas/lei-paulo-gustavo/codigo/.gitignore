@@ -1,0 +1,9 @@
+# Bases de trabalho: revisar origem, licença e tamanho antes de publicar
+/data/*
+!/data/README.md
+
+# Resultados intermediários e gerados
+/output/
+.Rhistory
+.Rproj.user/
+.DS_Store

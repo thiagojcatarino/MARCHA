@@ -22,6 +22,9 @@
 ├── data/
 │   └── catalog.json
 ├── pages/                    (vazio)
+├── pesquisas/
+│   └── lei-paulo-gustavo/
+│       └── codigo/          (pipeline R; dados e outputs locais ignorados)
 ├── DOC/
 │   ├── README.md
 │   ├── estrutura-do-repositorio.md
@@ -48,5 +51,6 @@
 - `PROJECT.md` — propósito, arquitetura, princípios técnicos e orientação de organização do projeto.
 - `README.md` — apresentação breve e instruções para abrir o protótipo localmente.
 - `DOC/` — documentação de trabalho editorial, curatorial e de acervo.
+- `pesquisas/lei-paulo-gustavo/codigo/` — scripts e documentação do pipeline quantitativo; consulte o README e o mapa do pipeline antes de executar.
 
 Esta árvore descreve o repositório do site, não a totalidade do acervo de origem. Materiais originais podem permanecer fora dele até inventário, seleção e decisão de destino.
