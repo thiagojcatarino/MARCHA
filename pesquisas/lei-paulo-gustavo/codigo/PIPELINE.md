@@ -22,7 +22,6 @@
 4. **Tempo e escopo.** O cabeçalho de `master.R` estima cerca de 910 minutos. A execução pode gerar consultas externas, consumir recursos e depender de limites dos serviços; não iniciar sem revisar escopo, cache e permissões.
 5. **Metadados da pesquisa.** A pasta fonte contém `CITATION.cff.docx` e `LICENSE.docx`, ambos documentos Word, não arquivos CFF/LICENSE em formato de texto. A origem e a licença de cada base também precisam de registro antes de qualquer publicação de dados.
 6. **README de origem inválido.** O `README.md` da pasta fonte é, pelos metadados do arquivo, um documento Word/ZIP com extensão `.md`, não Markdown legível. Ele não foi importado.
-
 ## Regra de manutenção
 
 - Corrigir primeiro reprodutibilidade, caminhos, configuração de faturamento e verificações do orquestrador.
