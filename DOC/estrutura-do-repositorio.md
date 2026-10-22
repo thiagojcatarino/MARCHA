@@ -1,37 +1,38 @@
 # Estrutura do repositório
 
-Árvore observada nesta versão. Diretórios sem arquivos rastreáveis aparecem como `(vazio)`; conteúdos locais ignorados ou ocultos não são enumerados.
+Árvore observada nesta versão. Arquivos locais ignorados pelo Git não aparecem.
 
 ```text
 10_Site/
+├── .github/workflows/pages.yml
 ├── assets/
 │   ├── css/
-│   │   ├── base/
-│   │   │   └── style.css
-│   │   ├── components/
-│   │   │   └── menu.css
-│   │   └── pages/
-│   │       └── home.css
-│   ├── data/                 (vazio)
-│   ├── fonts/                (vazio)
-│   ├── images/               (vazio)
-│   └── js/
-│       ├── catalog.js
-│       ├── menu.js
-│       └── script.js
+│   │   ├── base/style.css
+│   │   ├── components/menu.css
+│   │   └── pages/home.css
+│   ├── images/publicacoes/MARCHA_2026_Caderno_de_Pesquisa_Capa.png
+│   ├── js/
+│   │   ├── catalog.js
+│   │   ├── menu.js
+│   │   ├── root-landing.js
+│   │   └── video-highlight.js
+│   ├── publicacoes/
+│   │   ├── MARCHA_2026_Caderno_de_Pesquisa.docx
+│   │   └── MARCHA_2026_Caderno_de_Pesquisa.pdf
+│   └── videos/IMG_2321-exposicao.m4v
 ├── data/
-│   └── catalog.json
-├── pages/                    (vazio)
-├── pesquisas/
-│   └── lei-paulo-gustavo/
-│       └── codigo/          (pipeline R; dados e outputs locais ignorados)
+│   ├── catalog.json
+│   └── README.md
 ├── DOC/
 │   ├── README.md
+│   ├── codigo-e-pesquisas.md
 │   ├── estrutura-do-repositorio.md
 │   ├── fluxo-editorial-e-curatorial.md
 │   ├── registro-do-acervo.md
-│   └── modelos/
-│       └── registro-de-midia.md
+│   └── modelos/registro-de-midia.md
+├── MLPD.Rproj
+├── PIPELINE.md
+├── [scripts R da pesquisa]
 ├── index.html
 ├── PROJECT.md
 └── README.md
@@ -39,18 +40,15 @@
 
 ## Funções principais
 
-- `index.html` — documento da homepage, com as seções editoriais e os pontos de entrada para pesquisa e acervo.
-- `assets/css/base/style.css` — estilos globais, tipografia e regras de base.
-- `assets/css/components/menu.css` — aparência e comportamento visual da navegação.
-- `assets/css/pages/home.css` — composição e estilos específicos da homepage.
-- `assets/js/menu.js` — interação do menu de navegação.
-- `assets/js/catalog.js` — lógica de apresentação do catálogo/índice.
-- `assets/js/script.js` — script adicional da interface; sua função deve ser descrita com mais detalhe quando confirmada na revisão de código.
-- `data/catalog.json` — dados estruturados do catálogo inicial exibido pelo site.
-- `assets/data/`, `assets/fonts/`, `assets/images/` e `pages/` — diretórios disponíveis, ainda sem arquivos rastreáveis nesta árvore.
-- `PROJECT.md` — propósito, arquitetura, princípios técnicos e orientação de organização do projeto.
-- `README.md` — apresentação breve e instruções para abrir o protótipo localmente.
-- `DOC/` — documentação de trabalho editorial, curatorial e de acervo.
-- `pesquisas/lei-paulo-gustavo/codigo/` — scripts e documentação do pipeline quantitativo; consulte o README e o mapa do pipeline antes de executar.
+- `index.html` — homepage institucional e editorial.
+- `assets/css/` — estilos base, navegação e páginas.
+- `assets/js/` — catálogo, navegação, destaque da homepage e mídia.
+- `assets/images/` e `assets/publicacoes/` — capa, PDF e versão editável do caderno MARCHA 2026.
+- `assets/videos/IMG_2321-exposicao.m4v` — vídeo de exposição em destaque.
+- `data/catalog.json` — registros do catálogo público inicial.
+- `DOC/` — documentação institucional, editorial, curatorial e de acervo.
+- `*.R`, `MLPD.Rproj` e `PIPELINE.md` — scripts e instruções do pipeline quantitativo da Lei Paulo Gustavo, organizados na raiz.
+- `.gitignore` — exclusões para arquivos temporários, dados locais e produtos de análise.
+- `.github/workflows/pages.yml` — publicação do site pelo GitHub Pages.
 
-Esta árvore descreve o repositório do site, não a totalidade do acervo de origem. Materiais originais podem permanecer fora dele até inventário, seleção e decisão de destino.
+O repositório reúne o site e o código de pesquisa, mas não contém as bases brutas nem os resultados intermediários locais.

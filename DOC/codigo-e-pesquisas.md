@@ -2,6 +2,6 @@
 
 ## Lei Paulo Gustavo — MARCHA 2026
 
-O código de análise foi organizado em [`pesquisas/lei-paulo-gustavo/codigo/`](../pesquisas/lei-paulo-gustavo/codigo/). O [README do código](../pesquisas/lei-paulo-gustavo/codigo/README.md) descreve os scripts e insumos; o [mapa do pipeline](../pesquisas/lei-paulo-gustavo/codigo/PIPELINE.md) registra a ordem de prioridade, produtos e pendências de reprodução.
+Os scripts de análise estão na raiz do repositório, junto de `MLPD.Rproj`. A ordem, os insumos e os produtos estão documentados em [`PIPELINE.md`](../PIPELINE.md). O [README principal](../README.md) explica a relação entre os códigos e o site institucional.
 
-A inclusão contém os scripts R e a configuração do projeto. As bases e os resultados locais não foram copiados. A pasta original `Downloads/Base_de_Dados` permanece intacta.
+As bases brutas e os resultados locais não fazem parte do repositório. O catálogo público em `data/catalog.json` permanece versionado; os dados de trabalho e a pasta `output/` são ignorados pelo Git.
