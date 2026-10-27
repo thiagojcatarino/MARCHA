@@ -4,17 +4,21 @@ Este repositório contém o projeto de pesquisa quantitativa sobre a implementa�
 
 ## Projeto RStudio
 
-Abra `MLPD.Rproj` no RStudio. Os scripts `.R` e as configurações da pesquisa ficam na raiz. `config.R` reúne parâmetros e caminhos locais. As bases de trabalho necessárias à análise não são versionadas neste repositório.
+Abra `MLPD.Rproj` no RStudio. Os scripts `.R` e as configurações da pesquisa ficam na raiz. `config.R` reúne parâmetros e caminhos locais.
+
+## Dados de entrada
+
+As três bases de entrada atualmente usadas pelo projeto estão versionadas em `data/` como cópias estáticas. Elas foram copiadas para este repositório; não há sincronização nem vínculo com iCloud ou outra nuvem pessoal.
+
+- `data/PauloGustavo - 6 - Painel de Utilização - Lista Município_Detalhamento Municípios_Tabela.csv` — detalhamento municipal da utilização dos recursos da Lei Paulo Gustavo.
+- `data/br_inep_ideb_municipio.csv` — indicadores municipais do IDEB.
+- `data/highereduc.xlsx` — distribuição da população de 18 anos ou mais por nível de instrução e município, Censo 2022.
+
+Os arquivos contêm dados agregados, sem identificadores pessoais. Consulte `data/README.md` para detalhes sobre fontes e execução. A execução integral dos scripts ainda pode exigir internet para consultar APIs e um projeto com faturamento no BigQuery, caso os caches de RAIS e resultados eleitorais não estejam disponíveis. Resultados intermediários em `output/` permanecem fora do controle de versão.
 
 ## Conteúdo
 
 - `MLPD.Rproj` — projeto do RStudio.
 - `*.R` — scripts, funções, construção de bases, estimações e geração de resultados.
 - `config.R` — parâmetros e caminhos configuráveis.
-- `data/README.md` — orientação sobre dados de trabalho locais.
-
-## Dados locais
-
-Bases brutas, arquivos de trabalho e resultados intermediários ficam fora do controle de versão. Confira a origem, a licença, o tamanho e a necessidade de revisão antes de compartilhar qualquer dado. Os caminhos locais e resultados gerados são excluídos pelo `.gitignore`.
-
-Este repositório é dedicado à pesquisa e aos scripts em R.
+- `data/` — bases de entrada da pesquisa e instruções de uso.
