@@ -4,10 +4,5 @@
 *~
 _backup_original_2026-10-07/
 
-# Dados locais de entrada da pesquisa
-/data/PauloGustavo*.csv
-/data/br_inep_ideb_municipio.csv
-/data/highereduc.xlsx
-
-# Resultados locais gerados pelo pipeline
+# Resultados e arquivos intermediários gerados localmente
 /output/
