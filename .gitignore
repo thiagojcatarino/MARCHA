@@ -3,11 +3,11 @@
 .Rproj.user/
 *~
 _backup_original_2026-10-07/
-assets/js/script.js
-/assets/videos/IMG_2321.MOV
 
-# Dados de trabalho da pesquisa (manter o catálogo público versionado)
+# Dados locais de entrada da pesquisa
 /data/PauloGustavo*.csv
 /data/br_inep_ideb_municipio.csv
 /data/highereduc.xlsx
+
+# Resultados locais gerados pelo pipeline
 /output/

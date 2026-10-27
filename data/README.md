@@ -1,5 +1,5 @@
-# Dados
+# Dados de trabalho
 
-`catalog.json` contém os registros do índice público inicial da MLPD.
+Os scripts da pesquisa usam arquivos locais de entrada nesta pasta. Os caminhos configuráveis estão em `config.R`; os nomes dos insumos também aparecem nos scripts que os utilizam. As bases de trabalho não são versionadas neste repositório.
 
-Os scripts de pesquisa também usam arquivos de entrada locais nesta pasta. Esses arquivos não foram publicados; consulte `PIPELINE.md` antes de reproduzir a análise. Bases brutas, arquivos de trabalho e resultados intermediários precisam de revisão de fonte, licença e tamanho antes de serem adicionados ao repositório.
+Antes de compartilhar qualquer base, verifique a fonte, a licença, a presença de dados pessoais, o tamanho e a necessidade de revisão. Resultados intermediários são gerados localmente em `output/`, também ignorada pelo Git.
